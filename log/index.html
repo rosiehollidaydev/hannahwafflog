@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Episode Logger</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h4 class="white-text">Episode Logger</h4>
+            <button id="logButton" class="btn deep-purple">Log an Episode</button>
+            <button id="viewLogsButton" class="btn blue">View Logs</button>
+        
+            <div id="logOptions" class="card-panel" style="display: none;">
+                <button class="btn green optionButton" data-episode="Low">Low</button>
+                <button class="btn amber optionButton" data-episode="Medium">Medium</button>
+                <button class="btn red optionButton" data-episode="High">High</button>
+                <input type="text" id="noteInput" class="input-field" placeholder="Add a note..." style="display: none;">
+                <button id="saveNote" class="btn purple" style="display: none;">Save</button>
+            </div>
+        
+            <div id="historyContainer" class="card-panel" style="display: none;">
+                <table id="historyTable" class="striped highlight"></table>
+            </div>
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+    </html>

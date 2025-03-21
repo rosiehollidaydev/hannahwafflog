@@ -1,0 +1,6 @@
+body { background-color: rebeccapurple; font-family: Arial, sans-serif; text-align: center; }
+   .container { margin-top: 20px; }
+   .btn { margin: 10px; }
+   table { width: 80%; margin: auto; border-collapse: collapse; }
+   th, td { padding: 10px; text-align: center; }
+   th { background-color: #f2f2f2; } 
